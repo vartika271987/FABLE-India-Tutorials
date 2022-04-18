@@ -18,17 +18,17 @@ editor_options:
 -   two functions to check and set the `madrat` configuration:
 
     1.  `getConfig()` lists the full configuration. Among other settings, one can see the location of the inputdata directory (`$mainfolder`) and other important subfolders.
-    2.  `setConfig()` is used to change some of the default settings. Usually applies on forcing the usage of cash files from the `cashfolder`. The default setting is to calculate functions without usage of cashed files. However, this can take quite some time sometimes, and it's then better to use a cashed file. This is explained in the following section.
+    2.  `setConfig()` is used to change some of the default settings. Usually applies on forcing the usage of cache files from the `cache` folder. The default setting is to calculate functions without usage of cached files. However, this can take quite some time sometimes, and it's then better to use a cace file. This is explained in the following section.
 
-**2. Using the cashed files**
+**2. Using the cached files**
 
 -   Set the configuration correctly:
 
-    -   `setConfig(forcecashe=TRUE)`
+    -   `setConfig(forcecache=TRUE)`
     
--   Make sure that the cash file exist in the local `cashfolder`.
+-   Make sure that the cache file exist in the local `cache` folder.
 
-    -   If it doesn't exist locally, the forcing of cash will have no effect and the data will be fully calculated. Copy the file instead from the folder on the cluster: `"/p/projects/rd3mod/inputdata/cache/default"`
+    -   If it doesn't exist locally, the forcing of cache will have no effect and the data will be fully calculated again. Copy the file instead from the folder on the cluster: `"/p/projects/rd3mod/inputdata/cache/default"`
 
 **3. Example: `caclProcessing_shares()` from the `mrland` package**
 
