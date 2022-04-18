@@ -1,7 +1,7 @@
 ---
 title: CalcOutput_workflow.md
 output: html_notebook
-editor_options: 
+editor_options:
   chunk_output_type: inline
 ---
 
@@ -9,7 +9,7 @@ editor_options:
 # 1. The `madrat` package should be installed and loaded
 * this means that the `madrat` structure and settings have to be defined which happens by first installation of the package. In particular, the `mainfloder` directory for input data and outputs has to be defined.
 
--   load the package. 
+-   load the package.
 
     ```{r}
     library(madrat)
@@ -25,7 +25,7 @@ editor_options:
 -   Set the configuration correctly:
 
     -   `setConfig(forcecache=TRUE)`
-    
+
 -   Make sure that the cache file exist in the local `cache` folder.
 
     -   If it doesn't exist locally, the forcing of cache will have no effect and the data will be fully calculated again. Copy the file instead from the folder on the cluster: `"/p/projects/rd3mod/inputdata/cache/default"`
@@ -40,5 +40,3 @@ editor_options:
     ksd<-magpiesets::findset("ksd")
     kpr<-magpiesets::findset("kpr")
     ```
-
-    
