@@ -7,4 +7,5 @@ Migrate to the Project folder of the library, in which the function is on which 
 For example, if you want to work on the function `calcEATLancetDiets`, then you need to have the `mrland` project folder selected on your Rstudio interface. 
 
 Open the file of the function that you want to work on from `File` option at the bottom right window of RStudio 
-![image](https://user-images.githubusercontent.com/51452385/164454292-a573e907-9cb4-4c9c-a62b-4b391fa21d58.png)
+![image](https://user-images.githubusercontent.com/51452385/164454866-8bcb2731-902a-4ec0-a031-bdd570682971.png)
+
