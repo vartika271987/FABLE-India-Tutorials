@@ -8,7 +8,7 @@
 
 2\. **To set remote tracking to the upstream repositories**
 
-`git remote add upstream git@github.com/magpiemodel/magpie.git` 
+`git remote add upstream git@github.com:magpiemodel/magpie.git` 
 
 this will set two tracking links for you, both for your fork and for the main model. (alternatively use the *https* address if ssh is not set up)
 
